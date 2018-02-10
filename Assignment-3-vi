@@ -1,0 +1,9 @@
+var x = 5
+var y = 10
+
+  while (x < 800) {
+    line(x,0,x,y);
+    x = x + 5
+    y = y + 10
+   
+  }
