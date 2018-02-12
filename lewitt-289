@@ -1,15 +1,38 @@
 background(0);
 
 var lines = 0;
-while (lines < 80) {
+while (lines < 30) {
   line(width/2, height/2,random(width),random(height));
+  stroke(255);
+  lines = lines + 1;
+}
+
+var lines = 0;
+while (lines < 30) {
+  line(width/2, 0,random(width),random(height));
   stroke(255);
   lines = lines + 1;
 }
 
 
 var lines = 0;
-while (lines < 80) {
-  line(random(width), random(height),random(width),random(height));
+while (lines < 30) {
+  line(0, height/2,random(width),random(height));
+  stroke(255);
   lines = lines + 1;
 }
+
+var lines = 0;
+while (lines < 30) {
+  line(width, height/2,random(width),random(height));
+  stroke(255);
+  lines = lines + 1;
+}
+
+var lines = 0;
+while (lines < 30) {
+  line(width/2, height,random(width),random(height));
+  stroke(255);
+  lines = lines + 1;
+}
+
